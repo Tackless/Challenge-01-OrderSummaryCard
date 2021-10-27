@@ -1,0 +1,39 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: v.$fuente_principal;
+    font-size: 1.6rem;
+    background-image: url(/build/img/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include m.desktop {
+        background-image: url(/build/img/pattern-background-desktop.svg);
+    } 
+}
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-size: 3rem;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    a {
+        text-decoration: none;
+        color: v.$dark_blue;
+    }
+}
