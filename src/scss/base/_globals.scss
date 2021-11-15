@@ -13,8 +13,8 @@ body {
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
     background-image: url(/build/img/pattern-background-mobile.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
     @include m.desktop {
         background-image: url(/build/img/pattern-background-desktop.svg);
     } 
@@ -30,10 +30,8 @@ h1, h2, h3 {
     font-size: 3rem;
 }
 footer {
-    position: fixed;
-    bottom: 0;
     a {
         text-decoration: none;
-        color: v.$dark_blue;
+        color: v.$bright_blue;
     }
 }

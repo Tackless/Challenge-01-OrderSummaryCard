@@ -23,5 +23,14 @@
     "gulp-webp": "^4.0.1",
     "postcss": "^8.3.11",
     "sass": "^1.43.3"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tackless/Order-Summary-Card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tackless/Order-Summary-Card/issues"
+  },
+  "homepage": "https://github.com/Tackless/Order-Summary-Card#readme"
 }

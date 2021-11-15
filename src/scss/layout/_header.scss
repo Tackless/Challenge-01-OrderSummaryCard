@@ -3,13 +3,13 @@
 
 .contenedor-general {
     width: 95%;
-    max-width: 40rem;
+    max-width: 45rem;
     background-color: v.$white;
     background-image: url(/build/img/illustration-hero.svg);
     background-repeat: no-repeat;
     margin: 10rem auto;
     box-shadow: 0px 0px 102px -14px rgba(0,0,0,0.23);
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 .header {
     text-align: center;
@@ -22,5 +22,6 @@
     }
     p {
         color: v.$desaturated_blue;
+        line-height: 1.4;
         }
 }
